@@ -19,7 +19,7 @@ const theme = {
     },
     desktop: {
       sm: '2rem',
-      md: '2.8rem',
+      md: '3rem',
       lg: '3.5rem',
     },
   }

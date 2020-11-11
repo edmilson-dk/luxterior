@@ -37,4 +37,5 @@ export const CustomersContent = styled.div`
   align-items: center;
   
   overflow: auto;
+  padding: 0 -1rem;
 `;

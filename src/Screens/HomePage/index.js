@@ -10,6 +10,12 @@ import { BoxItem, Benefits } from '../../Components/Benefits/';
 import { BoxNumber, Experience } from '../../Components/Experience/';
 import { TimeLine, Process } from '../../Components/Process/';
 import { BoxCustomer, Customers } from '../../Components/Customers/';
+import { 
+  Subscribe, 
+  Form, 
+  Button, 
+  Input 
+} from '../../Components/Subscribe/';
 
 function Home() {
   return (
@@ -110,6 +116,16 @@ function Home() {
         />
 
       </Customers>
+
+      <Subscribe
+        title="Subscribe To Get The Latest News About us"
+        text="We recommended you to subscribe to our newspaper, enter your email below to get our daily update about us"
+      >
+        <Form>
+          <Input placeholder="Enter your email adress"/>
+          <Button label="Subscribe"/>
+        </Form>
+      </Subscribe>
     </>
   );
 }

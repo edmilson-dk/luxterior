@@ -3,9 +3,12 @@ import styled from 'styled-components';
 export const BoxCustomerWrapper = styled.article`
   width: 100%;
   min-width: 48rem;
-  margin: 2rem;
   padding: 4rem;
   background: ${({ theme }) => theme.colors.primary};
+  
+  & + article {
+    margin-left: 3rem;
+  }
 `;
 
 export const BoxCustomerContainer = styled.div`
