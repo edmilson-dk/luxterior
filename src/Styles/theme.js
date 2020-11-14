@@ -18,7 +18,7 @@ const theme = {
       lg: '3rem',
     },
     desktop: {
-      sm: '2rem',
+      sm: '1.8rem',
       md: '3rem',
       lg: '3.5rem',
     },
